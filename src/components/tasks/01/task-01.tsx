@@ -12,8 +12,7 @@ export const Task01: React.FC = () => {
             <ol start={0} className={styles.desc}>
                 <li>
                     In this tutorial, you'll learn how you can view and visually
-                    edit <b>React</b> components using
-                    <b>&nbsp;Codux</b>.
+                    edit <b>React</b> components with<b>&nbsp;Codux</b>.
                 </li>
                 <li>
                     Switch to <TaskSymbol name="preview" /> <b>Preview Mode</b>
@@ -21,16 +20,11 @@ export const Task01: React.FC = () => {
                     what’s behind?
                 </li>
                 <li>
-                    If you need more space in your screen, click&nbsp;
-                    <TaskSymbol name="hamburger" /> to hide the left sidebar.
-                </li>
-                <li>
                     To reload and bring back the shapes, just click&nbsp;
                     <TaskSymbol name="reload" /> <b>Reload Preview</b>.
                 </li>
                 <li>
-                    When ready, find your next lessons in the
-                    <b>&nbsp;Components list</b> on the left sidebar.
+                    When ready, go back to the homescreen to find your next lessons.
                 </li>
             </ol>
         </div>
