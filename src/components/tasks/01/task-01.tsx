@@ -26,7 +26,6 @@ export const Task01: React.FC = () => {
                 </li>
                 <li>
                     When ready, go back to the homescreen to find your next lessons.
-                    <b>&nbsp;Components list</b> on the left sidebar.
                 </li>
             </ol>
         </div>
