@@ -21,15 +21,11 @@ export const Task01: React.FC = () => {
                     what’s behind?
                 </li>
                 <li>
-                    If you need more space in your screen, click &nbsp;
-                    <TaskSymbol name="hamburger" /> to hide the left sidebar.
-                </li>
-                <li>
                     To reload and bring back the shapes, just click &nbsp;
                     <TaskSymbol name="reload" /> <b>Reload Preview</b>.
                 </li>
                 <li>
-                    When ready, find your next lessons in the
+                    When ready, go back to the homescreen to find your next lessons.
                     <b>&nbsp;Components list</b> on the left sidebar.
                 </li>
             </ol>
