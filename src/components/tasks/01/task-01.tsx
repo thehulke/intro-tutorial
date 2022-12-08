@@ -25,7 +25,7 @@ export const Task01: React.FC = () => {
                     <TaskSymbol name="reload" /> <b>Reload Preview</b>.
                 </li>
                 <li>
-                    When ready, go back to the homescreen to find your next lessons.
+                    When ready, go back to the <TaskSymbol name="home" /><b>Home</b> screen to find your next lessons.
                 </li>
             </ol>
         </div>
