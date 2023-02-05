@@ -3,6 +3,7 @@ import styles from './lesson-03.module.scss';
 import { Pupil } from '../pupil/pupil';
 import { ConfettiFx } from '../../fx/confetti-fx/confetti-fx';
 import { Task03 as Task } from '../../tasks/03/task-03';
+import backgroundImgUrl from '../../../assets/eye.svg';
 
 export const Lesson03: React.FC = () => {
     const [lessonSolved, setLessonSolved] = useState(false);
@@ -15,8 +16,16 @@ export const Lesson03: React.FC = () => {
         <div className={styles.root}>
             <Task />
             <div className={styles.playground}>
-                <div id="top" className={`${styles.eye} ${styles.top}`}></div>
-                <div id="bottom" className={`${styles.eye} ${styles.bottom}`}>
+                <div
+                    id="top"
+                    className={`${styles.eye} ${styles.top}`}
+                    style={{ backgroundImage: `url(${backgroundImgUrl})` }}
+                ></div>
+                <div
+                    id="bottom"
+                    className={`${styles.eye} ${styles.bottom}`}
+                    style={{ backgroundImage: `url(${backgroundImgUrl})` }}
+                >
                     <Pupil color={'hotRed'} />
                 </div>
                 <ConfettiFx

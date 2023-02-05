@@ -5,6 +5,7 @@ import { Box } from '../../common/box/box';
 import { CursorFx } from '../../fx/cursor-fx/cursor-fx';
 import { ConfettiFx } from '../../fx/confetti-fx/confetti-fx';
 import { Task01 as Task } from '../../tasks/01/task-01';
+import backgroundImgSrc from '../../../assets/lesson-01-bg.png';
 
 const boxes: ColorName[] = [
     'lavender',
@@ -43,7 +44,10 @@ export const Lesson01: React.FC = () => {
     return (
         <div className={styles.root}>
             <Task />
-            <div className={styles.playground}>
+            <div
+                className={styles.playground}
+                style={{ backgroundImage: `url(${backgroundImgSrc})` }}
+            >
                 {boxes.map((color, idx) => (
                     <Box
                         key={idx}

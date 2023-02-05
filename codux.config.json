@@ -18,6 +18,9 @@
     "safeRender": {
         "maxInstancesPerComponent": 1000
     },
+    "staticDeploy": {
+        "include": ["./src/components/**/*", "./src/_codux/component-templates/**/*"]
+    },
     "scripts": {
         "install": {
             "title": "Install",
@@ -28,6 +31,5 @@
     },
     "styling": {
         "solution": "scss modules"
-    },
-    "svgLoader": "both"
+    }
 }
